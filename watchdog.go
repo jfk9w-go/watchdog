@@ -9,12 +9,12 @@ import (
 )
 
 type (
-	Alert   = client.Alert
-	Service = client.Service
-	Config  = client.Config
+	Alert    = client.Alert
+	Instance = client.Instance
+	Config   = client.Config
 )
 
-func Run(ctx context.Context, config client.Config) *client.Instance {
+func Run(ctx context.Context, config Config) *Instance {
 	if config.Hostname == "" {
 		config.Hostname = Hostname("unknown")
 	}
