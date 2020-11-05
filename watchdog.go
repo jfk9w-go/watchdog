@@ -11,6 +11,7 @@ import (
 type (
 	Alert   = client.Alert
 	Service = client.Service
+	Config  = client.Config
 )
 
 func Run(ctx context.Context, config client.Config) *client.Instance {
