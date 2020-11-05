@@ -4,9 +4,9 @@ import (
 	"context"
 	"io"
 
-	"github.com/jfk9w/watchdog/client"
+	"github.com/jfk9w-go/watchdog/client"
 
-	"github.com/jfk9w/watchdog/transport"
+	"github.com/jfk9w-go/watchdog/transport"
 )
 
 type Wrapper struct {

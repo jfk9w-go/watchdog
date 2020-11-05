@@ -6,7 +6,7 @@ import (
 	"syscall"
 
 	"github.com/jfk9w-go/flu"
-	"github.com/jfk9w/watchdog/server"
+	"github.com/jfk9w-go/watchdog/server"
 )
 
 type Config struct {

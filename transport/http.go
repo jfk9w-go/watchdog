@@ -10,7 +10,7 @@ import (
 
 	"github.com/jfk9w-go/flu"
 	fluhttp "github.com/jfk9w-go/flu/http"
-	"github.com/jfk9w/watchdog/client"
+	"github.com/jfk9w-go/watchdog/client"
 	"github.com/pkg/errors"
 )
 

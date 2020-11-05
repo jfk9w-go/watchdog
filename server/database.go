@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/doug-martin/goqu/v9"
-	"github.com/jfk9w/watchdog/client"
+	"github.com/jfk9w-go/watchdog/client"
 	_ "github.com/lib/pq"
 	"github.com/pkg/errors"
 )

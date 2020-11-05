@@ -8,7 +8,7 @@ import (
 	"net/rpc"
 	"net/rpc/jsonrpc"
 
-	"github.com/jfk9w/watchdog/client"
+	"github.com/jfk9w-go/watchdog/client"
 
 	"github.com/jfk9w-go/flu"
 	"github.com/pkg/errors"

@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/jfk9w-go/flu/serde"
-	"github.com/jfk9w/watchdog"
-	"github.com/jfk9w/watchdog/client"
-	"github.com/jfk9w/watchdog/server"
+	"github.com/jfk9w-go/watchdog"
+	"github.com/jfk9w-go/watchdog/client"
+	"github.com/jfk9w-go/watchdog/server"
 )
 
 func main() {
